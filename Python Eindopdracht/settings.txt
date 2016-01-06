@@ -1,0 +1,2 @@
+StartDir=C:/Users/Frans 2.1/Pictures/Voor de lol/
+Bogus=released

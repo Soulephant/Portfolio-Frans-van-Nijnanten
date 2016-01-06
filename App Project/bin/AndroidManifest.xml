@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.prototype.ipmedt4"
+    android:versionCode="1"
+    android:versionName="BETA" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="project.prototype.ipmedt4.MainActivity"
+              android:label="@string/app_name"
+                            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="project.prototype.ipmedt4.Settings"
+              android:screenOrientation="portrait">
+            
+        </activity>
+                <activity 
+            android:name="project.prototype.ipmedt4.Search"
+              android:screenOrientation="portrait">
+            
+        </activity>
+                        <activity 
+            android:name="project.prototype.ipmedt4.Info"
+              android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="project.prototype.ipmedt4.Categorie1"
+              android:screenOrientation="portrait">
+            
+        </activity>
+                <activity 
+            android:name="project.prototype.ipmedt4.Categorie2"
+              android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="project.prototype.ipmedt4.NotFound"
+              android:screenOrientation="portrait">
+            
+        </activity>
+        <activity 
+            android:name="project.prototype.ipmedt4.AsyncTaskPull"
+              android:screenOrientation="portrait">
+        </activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
