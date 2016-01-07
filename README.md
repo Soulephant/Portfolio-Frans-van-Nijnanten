@@ -1,2 +1,2 @@
 # frans-portfolio
-(Tijdelijke?) portfolio op Github
+Portfolio op Github
